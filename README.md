@@ -1,7 +1,8 @@
 # collaboration
 
-#Requirements
+Requirements:
 Use Tomcat 7 as per requirements of opentides
+Use Java 7
 
 #To create Server,
 1. Go to toolbar Window > Show View > Other > Server
