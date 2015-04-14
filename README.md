@@ -4,7 +4,7 @@ Requirements:
 Use Tomcat 7 as per requirements of opentides
 Use Java 7
 
-#To create Server,
+#To create Server:
 1. Go to toolbar Window > Show View > Other > Server
 2. When the server view was shown: right-click(New) > Server > Then Server Options Dialog will appear(Select Apache Tomcat v7.0 ) > Then locate your tomcat directory on your computer > Next > Add the project to your server > Finsih
 
