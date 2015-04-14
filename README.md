@@ -33,7 +33,7 @@ server.xml, change "opentides" for any url that you want. And, change the value 
 
 #PermGen
 1. click your server(server settings will appear)
-2. 
+2. click "open launch configuration" > Click "Arguments"
 3. add this to VM Arguments -Xmx1024m -XX:MaxPermSize=512m
 		
 Additional Possible Errors that you might encounter:
