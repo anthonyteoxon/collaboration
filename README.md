@@ -43,5 +43,3 @@ If table in your database were not generated upon server start up, just drop the
 
 
 Most of the fixes were already committed, so just in case that you still experience some error just follow the instructions above.
-
-
