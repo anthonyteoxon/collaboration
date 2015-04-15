@@ -12,19 +12,19 @@ Use Java 7
 change database connection in your server
 Context.xml: Add this before closing of context tag. 
 #
-	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
-		maxActive="100" maxIdle="30000" maxWait="10000" name="jdbc/opentides3"
-		password="" type="javax.sql.DataSource"
-		url="jdbc:mysql://localhost:3306/opentides3?autoReconnect=true" 
-		username="root"/>
-		
-		
-		#For Database connection - this config is in localhost.properties
-		database.driver=com.mysql.jdbc.Driver
-		database.url=jdbc:mysql://localhost/opentides3
-		database.username=root
-		database.password=
-		database.jndi=java:comp/env/jdbc/opentides3
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+maxActive="100" maxIdle="30000" maxWait="10000" name="jdbc/opentides3"
+password="" type="javax.sql.DataSource"
+url="jdbc:mysql://localhost:3306/opentides3?autoReconnect=true" 
+username="root"/>
+
+
+#For Database connection - this config is in localhost.properties
+database.driver=com.mysql.jdbc.Driver
+database.url=jdbc:mysql://localhost/opentides3
+database.username=root
+database.password=
+database.jndi=java:comp/env/jdbc/opentides3
 
 #Important:	
 server.xml, change "opentides" for any url that you want. And, change the value of "reloadable" to false, default value is true.
