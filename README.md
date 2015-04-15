@@ -11,15 +11,15 @@ Use Java 7
 3. Additional Config:
 change database connection in your server
 Context.xml: Add this before closing of context tag. 
-#
-<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
+
+1. <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
 maxActive="100" maxIdle="30000" maxWait="10000" name="jdbc/opentides3"
 password="" type="javax.sql.DataSource"
 url="jdbc:mysql://localhost:3306/opentides3?autoReconnect=true" 
 username="root"/>
 
 
-#For Database connection - this config is in localhost.properties
+2. For Database connection - this config is in localhost.properties
 database.driver=com.mysql.jdbc.Driver
 database.url=jdbc:mysql://localhost/opentides3
 database.username=root
