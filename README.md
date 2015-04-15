@@ -12,7 +12,6 @@ Use Java 7
 change database connection in your server
 Context.xml: Add this before closing of context tag. 
 
-</Context>
 	<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver"
 		maxActive="100" maxIdle="30000" maxWait="10000" name="jdbc/opentides3"
 		password="" type="javax.sql.DataSource"
